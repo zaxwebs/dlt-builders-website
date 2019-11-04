@@ -1,7 +1,7 @@
 </div>
 <footer id="sticky-footer" class="footer bg-primary text-white pt-4 pb-4">
     <div class="container">
-        &copy; <?= APP_NAME ?> - A demo website by Zack Webster, made with DeLight.
+        &copy; <?= APP_NAME ?> - A website by Zack Webster, made with DeLight.
     </div>
 </footer>
 </body>

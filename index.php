@@ -144,7 +144,7 @@ putHeader($settings['company_name']);
         <h1 class="display-4">Contact</h1>
         <div class="row pt-5">
             <div class="col-md-4 mb-5">
-                <h2>Address</h2>
+                <h2>Main Office</h2>
                 <p>
                     <?= nl2br(htmlentities($settings['company_address'])) ?>
                 </p>
@@ -154,7 +154,7 @@ putHeader($settings['company_name']);
                 </p>
             </div>
             <div class="col-md-4 mb-5">
-                <h2>Division</h2>
+                <h2>Division Office</h2>
                 <p>
                     <?= nl2br(htmlentities($settings['division_address'])) ?>
                 </p>
