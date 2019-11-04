@@ -1,0 +1,123 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@supports (font-variation-settings: normal) {
+  * {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+nav {
+  border-bottom: 5px solid #fbca02;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.btn-secondary {
+  color: #fff !important;
+}
+
+.btn-secondary:hover {
+  background-color: #012f5d;
+  border: 1px solid #012f5d;
+}
+
+#home-cover {
+  background-color: #012f5d;
+  background-image: url('/assets/images/11.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 56px);
+  padding: 4em 0;
+  font-size: 1.5em;
+  position: relative;
+}
+
+#home-cover .overlay {
+  position: absolute;
+  background: linear-gradient(rgba(1, 47, 93, 0.7), rgba(1, 47, 93, 0));
+  width: 100%;
+  height: 100%;
+}
+
+#home-cover h1 {
+  font-size: 4em;
+}
+
+#home-cover .btn {
+  font-size: 0.7em;
+}
+
+#home-cover .wrap-left {
+  max-width: 700px;
+}
+
+#home-quote-bar {
+  padding: 1em 0;
+}
+
+#home-quote-bar .btn {
+  font-size: 1em;
+}
+
+#home-quote-bar .btn:hover {
+  background-color: #fbca02;
+  border: 1px solid #fbca02;
+}
+.expertise {
+  border-top: 4px solid #fbca02;
+  padding: 0 1em;
+  padding-top: 1em;
+  transition-duration: 300ms;
+}
+.expertise:hover {
+  padding: 0;
+  padding-top: 1em;
+}
+
+.expertise .image-container {
+  min-height: 150px;
+  margin-bottom: 1em;
+}
+
+.image-container {
+  background-size: cover;
+}
+
+.contained-facade {
+  max-width: 585px;
+}
+
+#home-featured .image-container {
+  min-height: 250px;
+}
+
+@media screen and (max-width: 500px) {
+  #home-cover {
+    padding: 2.5em 0;
+  }
+
+  #home-cover h1 {
+    font-size: 3em;
+  }
+}
