@@ -23,3 +23,5 @@ Things you can change:
 6. Company address and phone.
 7. Division address and phone.
 8. Request for proposal, service and career emails.
+
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
